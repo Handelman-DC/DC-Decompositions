@@ -1,0 +1,21 @@
+Th file polynomial.py contains an implementation for symbolic computation of multi variable polynomials which are addition, subtraction, multiplication, and exponentiation.
+The file im.py generates the coefficients of the polynomial for the shape for shading problem.
+Run the file as 
+
+```
+$ python im.py <path to image>.png
+```
+The image is expected to be greyscale. After running the above command, a folder with files {i}_{j}.txt will be generated.
+Each file contains the coefficients for each f_r which is in binary order of exponents.
+
+These coefficients are calculated according to Equation (12) in [1].
+
+Requirements:
+
+python==3.10.0
+Pillow==10.0.0
+numpy==1.25.2
+tqdm==4.66.1
+
+
+[1] "Continuous Inference in Graphical Models with Polynomial Energies", M.Salzmann, CVPR 2013
