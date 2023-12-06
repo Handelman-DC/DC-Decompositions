@@ -46,3 +46,4 @@ Full list to follow.
 
 ### DCD constructors
 
+There are a variety of DCD constructors. Currently, we've uplaoded the DD-Linear constructors, we'll upload the others soon (once we have support for other LP/SDP solvers).
